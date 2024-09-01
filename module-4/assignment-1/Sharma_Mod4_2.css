@@ -1,0 +1,59 @@
+/*
+Name : Arun Sharma
+Date : 09/01/2024
+Assignment : Module 4: Tables, Layouts, and Images - Assignment - 4.2
+*/
+
+#container {
+    margin: 50px 100px;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 0; /* Remove gap between columns to connect borders */
+}
+
+#image-gallery div {
+    border: 2px solid rgba(139, 0, 0, 0.8); /* RGBA color for the border */
+    margin: 0; /* Remove margin to connect borders */
+    padding: 10px; /* Add padding inside each box */
+    background-color: transparent; /* No background color for the divs */
+}
+
+h1 {
+    background-color: rgba(0, 123, 255, 0.5); /* Background color only for h1 (Used blue background colour because i have used it in my index.html to make it one color used like blue as primary)*/
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: black; /* Text color for h3 */
+    text-align: center;
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    text-align: center;
+    color: rgba(6, 6, 6, 0.75); /* Light grey with some transparency */
+}
+
+img {
+    width: 100%; /* Ensures images scale to div */
+    height: auto;
+}
+
+#back-link {
+    display: block;
+    text-align: right; /* Aligns the link to the right side */
+    margin-top: 20px;
+    text-decoration: underline; /* Adds underline to the link */
+    color: #007BFF; /* Optional: Adjust the color to fit your scheme */
+}
+
+#back-link:hover {
+    color: #0056b3; /* Optional: Darker shade on hover */
+}

@@ -1,0 +1,148 @@
+:root { 
+  --black: #000000;
+  --celeste: #cccccc;
+  --gallery: #eeeeee;
+  --granite-gray: #666666;
+  --white: #ffffff;
+ 
+  --font-size-24px: 24px;
+  --font-size-32px: 32px;
+  --font-size-36px: 36px;
+  --font-size-40px: 40px;
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 56px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.textmediumnormal {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.textsmallsemi-bold {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.textregularsemi-bold {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.textsmallnormal {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.headingmobileh1 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-40px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.textregularnormal {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.headingmobileh2 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-36px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.headingmobileh4 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-24px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.headingmobileh6 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.textmediumsemi-bold {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.texttinynormal {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.headingdesktoph1 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.headingdesktoph2 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.headingdesktoph4 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-32px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.headingdesktoph6 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.textlargesemi-bold {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}

@@ -1,0 +1,1248 @@
+/* screen - hobbies-1 */
+
+.hobbies-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.hobbies-1 .navbar-8 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 375px;
+}
+
+.hobbies-1 .content-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  padding: 0px 12px 0px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .content-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.hobbies-1 .color-dark {
+  height: 27px;
+  position: relative;
+  width: 63px;
+}
+
+.hobbies-1 .icon {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+  width: 48px;
+}
+
+.hobbies-1 .icon-x {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .row {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 128px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .container-1 {
+  gap: 10px;
+  padding: 0px 20px;
+}
+
+.hobbies-1 .column {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .link {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 12px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .link-text {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .link-four {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .nav-link-dropdown {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .chevron-down {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .mega-menu-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .menu {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .menu-list {
+  align-self: stretch;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.hobbies-1 .surname {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 600;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .list {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.hobbies-1 .menu-item {
+  gap: 12px;
+  height: 40px;
+  padding: 8px 0px;
+  width: 335px;
+}
+
+.hobbies-1 .icon--2 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .content {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.hobbies-1 .icon--3 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--4 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--5 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--6 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--7 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--8 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--9 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--10 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--11 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--12 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .icon--13 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .menu-1 {
+  align-self: stretch;
+  background-color: #eeeeee;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 24px;
+  width: 100%;
+}
+
+.hobbies-1 .content-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .list-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hobbies-1 .link-one {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 287px;
+}
+
+.hobbies-1 .link-1 {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  width: 287px;
+}
+
+.hobbies-1 .actions-1 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px 20px 0px;
+  width: 100%;
+}
+
+.hobbies-1 .style-secondary-smal-1 {
+  align-self: stretch;
+  display: flex;
+  margin-left: -1.00px;
+  margin-top: -1.00px;
+  padding: 8px 20px;
+  width: 100%;
+}
+
+.hobbies-1 .button {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .style-primary-small {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--black);
+  border: 1px solid;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -2.00px;
+  margin-left: -2.00px;
+  margin-right: -2.00px;
+  padding: 8px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .header-54 {
+  align-items: flex-start;
+  background-color: #00000080;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  padding: 64px 20px;
+  position: relative;
+  width: 375px;
+}
+
+.hobbies-1 .content-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .short-heading-here {
+  align-self: stretch;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 48.0px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .lorem-ipsum-dolor-si-1 {
+  align-self: stretch;
+  color: var(--white);
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}
+
+.hobbies-1 .hobbies-1-item {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  padding: 64px 20px;
+  position: relative;
+  width: 375px;
+}
+
+.hobbies-1 .container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .content-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .section-title {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .tagline-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.hobbies-1 .tagline {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .content-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .heading {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 43.2px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .text {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}
+
+.hobbies-1 .actions {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.hobbies-1 .style-secondary-smal {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--black);
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  margin-top: -1.00px;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.hobbies-1 .style-link-small-fal {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.hobbies-1 .icon-chevron-right {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .placeholder-image {
+  align-self: stretch;
+  height: 348px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .content-8 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .content-9 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .heading-1 {
+  line-height: 38.4px;
+}
+
+.hobbies-1 .list-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px 0px;
+  width: 100%;
+}
+
+.hobbies-1 .list-item {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.hobbies-1 .icon-rel {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.hobbies-1 .lorem-ipsum-dolor-si {
+  color: var(--black);
+  flex: 1;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .layout-10 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  padding: 48px 20px;
+  position: relative;
+  width: 375px;
+}
+
+.hobbies-1 .content-10 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .content-11 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .section-title-1 {
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.hobbies-1 .content-12 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .list-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 8px 0px;
+  width: 100%;
+}
+
+.hobbies-1 .icon--1 {
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+
+.hobbies-1 .subheading {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 25.2px;
+  position: relative;
+}
+
+.hobbies-1 .icon-chevron-right-1 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .gallery-4 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  padding: 64px 20px;
+  position: relative;
+  width: 375px;
+}
+
+.hobbies-1 .section-title-2 {
+  align-items: center;
+  gap: 20px;
+}
+
+.hobbies-1 .heading-2 {
+  line-height: 43.2px;
+  text-align: center;
+}
+
+.hobbies-1 .text-5 {
+  text-align: center;
+}
+
+.hobbies-1 .content-13 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .content-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .placeholder-image-1 {
+  flex: 1;
+  flex-grow: 1;
+  height: 155.5px;
+  object-fit: cover;
+  position: relative;
+}
+
+.hobbies-1 .container-3 {
+  gap: 20px;
+}
+
+.hobbies-1 .column-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.hobbies-1 .column-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.hobbies-1 .text-6 {
+  margin-top: -1.00px;
+}
+
+.hobbies-1 .actions-2 {
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.hobbies-1 .style-primary-small-1 {
+  align-items: center;
+  background-color: var(--black);
+  border: 1px solid;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -2.00px;
+  margin-left: -2.00px;
+  margin-top: -2.00px;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.hobbies-1 .button-2 {
+  margin-left: -1.00px;
+}
+
+.hobbies-1 .style-secondary-smal-2 {
+  display: inline-flex;
+  margin-bottom: -1.00px;
+  margin-top: -1.00px;
+  padding: 12px 24px;
+}
+
+.hobbies-1 .footer-9 {
+  background-color: var(--white);
+  gap: 32px;
+  padding: 48px 20px;
+  width: 375px;
+}
+
+.hobbies-1 .card {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  padding: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .newsletter {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .join-our-newsletter {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}
+
+.hobbies-1 .actions-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hobbies-1 .form {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .type-default-alternate-false {
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  margin-top: -1.00px;
+  padding: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .placeholder {
+  color: #666666;
+  flex: 1;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}
+
+.hobbies-1 .style-secondary-smal-3 {
+  align-self: stretch;
+  display: flex;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  padding: 12px 24px;
+  width: 100%;
+}
+
+.hobbies-1 .by-subscribing-you-a {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 18px;
+  position: relative;
+}
+
+.hobbies-1 .links {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .column-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.hobbies-1 .column-one {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: -1.00px;
+}
+
+.hobbies-1 .footer-links {
+  align-self: stretch;
+  width: 100%;
+}
+
+.hobbies-1 .link-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 8px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .link-3 {
+  color: var(--black);
+  flex: 1;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .column-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.hobbies-1 .column-two {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: -1.00px;
+}
+
+.hobbies-1 .footer-links-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .column-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.hobbies-1 .follow-us {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .social-links {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .link-4 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  padding: 8px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .icon-facebook {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .facebook {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .icon-instagram {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .instagram {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .icon-x-1 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .x {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .icon-linked-in {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .linked-in {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .icon-youtube {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.hobbies-1 .youtube {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .credits {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0px 0px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .row-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .footer-links-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.hobbies-1 .privacy-policy {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .footer-links-item {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .x2024-icon-all-rights-reserved {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .actions-4 {
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.hobbies-1 .button-3 {
+  color: var(--white);
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hobbies-1 .column-6 {
+  align-self: stretch;
+  position: relative;
+}
+
+.hobbies-1 .container-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .footer {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.hobbies-1 .heading-3 {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 700;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .list-4 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.hobbies-1 .list-item-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .menu-2 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.hobbies-1 .section-title-3 {
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.hobbies-1 .style-secondary-smal-4 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--black);
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  margin-right: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .surname-13 {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.hobbies-1 .text-7 {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}

@@ -1,0 +1,116 @@
+/*
+Name : Arun Sharma
+Date : 09/15/2024
+Assignment : Module 8: Advanced HTML - Assignment - 8.2
+*/
+
+/* Header styles */
+header {
+    background-color: #4790be;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+/* Navbar styles */
+#navbar {
+    overflow: hidden;
+    background-color: #333; 
+    border-bottom: solid 15px #4790be; 
+    margin-bottom: 30px; /* Add space between the navbar and cards */
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Container styles */
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+/* Card styles */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%; /* Adjust card width to fit side by side */
+    margin-bottom: 20px; /* Space between the two cards */
+    margin-left: 5%; /* Left-align the cards with margin from left */
+}
+
+.card-title {
+    text-align: center; /* Align text to the left */
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #333;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4790be;
+    padding: 10px;
+    overflow: hidden; /* This ensures content inside is contained */
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px; /* Add padding to the left */
+    text-align: left;
+    background-color: #4790be;
+    border: 1px solid #ddd;
+}
+
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}

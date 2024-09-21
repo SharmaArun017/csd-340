@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Module 9.3 Assignment for CSD 340">
+    <meta name="author" content="Arun Sharma">
+    <link rel="stylesheet" href="Sharma_Mod2_2.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        var word1 = "curiosity";
+        var word2 = "technology";
+        var word3 = "web development";
+        var word4 = "basketball";
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>Chapter Title: My Journey</h2>
+
+        <p class="intro">
+            I grew up in a small town in Punjab, India. My childhood was filled with outdoor adventures, from playing basketball to going for morning runs. This instilled in me a deep love for nature and a sense of <span id="word1">______</span>.
+        </p>
+        <p>
+            My hobbies include reading, coding, and playing <span id="word4">______</span> and music. I spend most of my free time learning new things, whether it's a programming language or reading.
+        </p>
+        <p>
+            I come from a close-knit family where we always support each other's endeavors. My parents encouraged me to pursue my passion for <span id="word2">______</span>, which has led me to where I am today.
+        </p>
+        <p>
+            I really enjoyed learning how to code in HTML. <span class="sentence">It was fun and exciting.</span> This started my interest in <span id="word3">______</span>.
+        </p>
+        
+        <p>
+            <button type="button" onclick="document.getElementById('word1').innerHTML = word1">Reveal "curiosity"</button>
+            <button type="button" onclick="document.getElementById('word2').innerHTML = word2">Reveal "technology"</button>
+            <button type="button" onclick="document.getElementById('word3').innerHTML = word3">Reveal "web development"</button>
+            <button type="button" onclick="document.getElementById('word4').innerHTML = word4">Reveal "basketball"</button>
+        </p>
+        
+        <hr>
+        <address>
+            <p><a href="https://www.bellevue.edu" target="_blank">Bellevue University</a></p>
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, NE 68005</p>
+        </address>
+    </div>
+</body>
+</html>

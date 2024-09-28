@@ -1,0 +1,119 @@
+/* General Body Styling */
+body {
+    font-family: 'Bodoni Moda', serif;  /* Use Bodoni Moda as the main font */
+    background-color: #d5bdaf;  /* Background color */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    font-family: 'Bodoni Moda', serif;  /* Apply Bodoni Moda to the header */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Main Container Styling */
+#container {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1000px;
+    background-color: #edede9;  /* Light beige background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Image Styling */
+img {
+    width: 350px; /* Increased image size */
+    cursor: pointer;
+    border-radius: 15px;  /* Rounded corners */
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect for Images */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Button Styling */
+button {
+    background-color: #d5bdaf;  /* Light brown color for buttons */
+    color: black;  /* Text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    width: 100%; /* Button width set to 100% for smaller screens */
+}
+
+/* Dynamic Image Styling */
+#mainImage {
+    margin-top: 20px;
+    width: 400px; /* Increased main image size */
+    height: auto;
+    border-radius: 15px;  /* Rounded corners */
+}
+
+/* Description Text Styling */
+#description {
+    font-family: 'Bodoni Moda', serif;  /* Apply Bodoni Moda to the description text */
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Adjustments for screens with a max width of 768px (tablets and small devices) */
+@media (max-width: 768px) {
+    img {
+        width: 90%; /* Reduce image width for smaller screens */
+    }
+    
+    button {
+        font-size: 14px; /* Adjust button font size */
+    }
+
+    #mainImage {
+        width: 90%; /* Make dynamic image responsive */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust heading size for smaller screens */
+    }
+}
+
+/* Adjustments for screens with a max width of 480px (mobile devices) */
+@media (max-width: 480px) {
+    img {
+        width: 80%; /* Further reduce image width for small screens */
+    }
+
+    button {
+        padding: 8px 15px; /* Adjust button padding for smaller screens */
+        font-size: 12px; /* Adjust button font size for mobile */
+    }
+
+    #mainImage {
+        width: 80%; /* Make dynamic image responsive on mobile */
+    }
+
+    h1 {
+        font-size: 20px; /* Smaller font size for the heading */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+}

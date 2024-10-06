@@ -1,0 +1,99 @@
+<!-- 
+Name : Arun Sharma
+Date : 10/06/2024
+Assignment : Module 11: Javascript Array Manipulation and Events - Assignment - 11.2
+
+( Github link: https://github.com/SharmaArun017/csd-340 )
+
+* Added link to index.html in the link above the footer with (Back to landing page)
+* Added some glassmorphism design
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Module 11.2 Assignment for CSD 340">
+    <meta name="author" content="Arun Sharma">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="Sharma_Mod11_2.css">
+
+    <script>
+        // Array to store the to-do items
+        let todoList = [];
+
+        // Function to add item to the array
+        function addItem() {
+            let item = document.getElementById("todoInput").value;
+            if (item !== "") {
+                todoList.push(item);
+                alert(`Item "${item}" added to the list at position ${todoList.length}.`);
+                document.getElementById("todoInput").value = ""; // Clear the input field
+            } else {
+                alert("Please enter a valid item.");
+            }
+        }
+
+        // Function to delete the last item from the array
+        function deleteLastItem() {
+            if (todoList.length > 0) {
+                let removedItem = todoList.pop();
+                alert(`Item "${removedItem}" removed from the list.`);
+            } else {
+                alert("No items to delete.");
+            }
+        }
+
+        // Function to display the contents of the array
+        function displayList() {
+            let displayArea = document.getElementById("todoDisplay");
+            displayArea.innerHTML = ""; // Clear previous contents
+            if (todoList.length > 0) {
+                for (let i = 0; i < todoList.length; i++) {
+                    displayArea.innerHTML += `${i + 1}. ${todoList[i]}<br>`;
+                }
+            } else {
+                displayArea.innerHTML = "No items in the to-do list.";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Main content -->
+    <div id="content">
+        <h1>Assignment 11.2: JavaScript - Part 3</h1>
+
+        <!-- Instructions Section -->
+        <p>Enter a task in the text box below and click "Add" to add it to your To-Do List. Use "Delete Last Entry" to remove the last item, and click "Display" to see the list.</p>
+
+        <!-- To-Do List Input -->
+        <label for="todoInput">Task:</label>
+        <input type="text" id="todoInput" placeholder="Enter task here...">
+
+        <!-- Buttons for the To-Do List -->
+        <div>
+            <button onclick="addItem()">Add</button>
+            <button onclick="deleteLastItem()">Delete Last Entry</button>
+            <button onclick="displayList()">Display</button>
+        </div>
+
+        <!-- Display area for the To-Do List -->
+        <h2>To-Do List:</h2>
+        <div id="todoDisplay" class="todo-container"></div>
+    </div>
+
+    <!-- Link to the Landing Page, placed above the footer -->
+    <div class="landing-link">
+        <a href="/module-3/assignment-1/index.html">Back to Landing Page</a>
+    </div>
+
+    <!-- Footer at bottom -->
+    <footer>
+        © 2024 Arun Sharma | CSD 340 Web Development with HTML and CSS
+    </footer>
+</body>
+</html>

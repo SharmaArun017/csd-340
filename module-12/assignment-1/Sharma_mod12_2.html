@@ -1,0 +1,84 @@
+<!-- 
+Name : Arun Sharma
+Date : 10/09/2024
+Assignment : Module 12: Javascript Array Manipulation and Events and Placement of Buttons - Assignment - 12.2
+
+( Github link: https://github.com/SharmaArun017/csd-340 )
+
+* Added link to index.html in the link - (Back to landing page)
+* Added some Neumorphism Design
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Sharma_mod12_2.css">
+
+    <script>
+        // Array holding the top ten books
+        let bookList = [
+            "Getting Things Done by David Allen",
+            "The 7 Habits of Highly Effective People by Stephen R. Covey",
+            "Atomic Habits by James Clear",
+            "Deep Work by Cal Newport",
+            "The One Thing by Gary Keller",
+            "Essentialism by Greg McKeown",
+            "Make Time by Jake Knapp and John Zeratsky",
+            "Eat That Frog! by Brian Tracy",
+            "The Power of Habit by Charles Duhigg",
+            "The Pomodoro Technique by Francesco Cirillo"
+        ];
+
+        // Function to display books in ascending order
+        function displayAscending() {
+            let sortedBooks = [...bookList].sort();
+            document.getElementById("bookDisplay").innerHTML = sortedBooks.map((book, index) => `${index + 1}. ${book}`).join('<br>');
+        }
+
+        // Function to display books in descending order
+        function displayDescending() {
+            let sortedBooks = [...bookList].sort().reverse();
+            document.getElementById("bookDisplay").innerHTML = sortedBooks.map((book, index) => `${index + 1}. ${book}`).join('<br>');
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 12.2: JavaScript - Part 4</h1>
+        <div class="side-by-side">
+            <div class="left-div">
+                <div class="books-box">
+                    <h3>Top 10 Favorite Books</h3>
+                    
+                    <!-- Buttons for sorting the book list -->
+                    <button onclick="displayAscending()">Top to Bottom</button>
+                    <button onclick="displayDescending()">Bottom to Top</button>
+
+                    <!-- Display area for the book list -->
+                    <div id="bookDisplay" style="border: 1px solid #ccc; padding: 10px; margin-top: 20px;"></div>
+                </div>
+            </div>
+            <div class="right-div">
+                <div class="learned-box">
+                    <h3>5 Things I've Learned Since the Course Started</h3>
+                    <ul>
+                        <li>How to structure a basic HTML document</li>
+                        <li>The importance of semantic elements </li>
+                        <li>How to link external CSS files</li>
+                        <li>Understanding the box model in CSS</li>
+                        <li>How to create and style lists and tables in HTML</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="last-div">
+            <a href="/module-3/assignment-1/index.html">back to Landing Page</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
